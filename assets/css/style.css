@@ -10,3 +10,17 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+.time-select, 
+.sound-picker,
+.player-container {
+    height: 80%;
+    flex: 1;
+}
+
+.time-select {
+    background: crimson;
+}
+.sound-picker {
+    background: darkcyan;
+}
