@@ -12,7 +12,8 @@
 }
 
 .time-select, 
-.sound-picker {
+.sound-picker,
+.player-container {
     height: 80%;
     flex: 1;
     display: flex;
@@ -20,6 +21,17 @@
     justify-content: space-evenly;
     align-items: center;
 }
+.player-container {
+    position: relative;
+}
+.player-container {
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.
 
 .time-select {
     background: crimson;
