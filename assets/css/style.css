@@ -12,10 +12,10 @@
 }
 
 .time-select, 
-.sound-picker,
-.player-container {
+.sound-picker, {
     height: 80%;
     flex: 1;
+    display: flex;
 }
 
 .time-select {
@@ -27,3 +27,5 @@
 .player-container {
     background: deepskyblue;
 }
+
+video
