@@ -34,15 +34,6 @@
 }
 
 
-.time-select {
-    background: crimson;
-}
-.sound-picker {
-    background: darkcyan;
-}
-.player-container {
-    background: deepskyblue;
-}
 
 .time-display {
     position: absolute;
@@ -52,5 +43,9 @@
 }
 
 video {
-    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    
 }
