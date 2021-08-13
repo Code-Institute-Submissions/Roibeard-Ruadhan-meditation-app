@@ -66,3 +66,16 @@ video {
     color: black;
     background: white;
 }
+
+.sound-picker button {
+    border: none;
+    height: 120px;
+    width: 120px;
+}
+
+.sound-picker button:nth-child(1){
+    background: darkslateblue;
+}
+.sound-picker button:nth-child(2){
+    background: crimson;
+}
