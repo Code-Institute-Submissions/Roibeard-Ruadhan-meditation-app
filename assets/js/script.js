@@ -14,8 +14,8 @@ const app = () => {
     //Duration function for the user to chose when the song stops
     let fakeDuration = 600;
 
-    outline.style.strokeDasharray = outlineLength;
-    outline.style.strokeDashoffset = outlineLength;
+outline.style.strokeDasharray = outlineLength;
+outline.style.strokeDashoffset = outlineLength;
 
 //Play sound
     play.addEventListener("click", () => {
