@@ -60,6 +60,12 @@
 
 .player-container {
     position: relative;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
 }
 .player-container svg {
     position: absolute;
@@ -84,7 +90,7 @@ video {
     width: 100%;
     z-index: -10;
 }
-
+/* Hovering over the button causes the button the change colour */
 .time-select button:hover {
     color: black;
     background: white;
