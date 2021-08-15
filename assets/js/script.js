@@ -17,6 +17,22 @@ const app = () => {
     outline.style.strokeDasharray = outlineLength;
     outline.style.strokeDashoffset = outlineLength;
 
+//Play sound
+    play.addEventListener("click", () => {
+        song.play();
+
+// Create a function specific to stop and play the sounds
+        const checkPlaying = song =>{
+            if(song.paused){
+                song.play();
+                play.src = '/assets/svg/pause.svg';
+            }else{
+                song.pause();
+                play.src = '/assets/svg/play.svg';
+            }
+        }
+});
+
 };
 
 app();
