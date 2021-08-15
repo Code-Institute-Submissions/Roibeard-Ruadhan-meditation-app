@@ -11,7 +11,12 @@ const app = () => {
     // Get the lenght of the outline for the sounds to allow annimation
     const outlineLength = outline.getTotalLength();
     console.log(outlineLength);
+    //Duration function for the user to chose when the song stops
+    let fakeDuration = 600;
 
-}
+    outline.style.strokeDasharray = outlineLength;
+    outline.style.strokeDashoffset = outlineLength;
+
+};
 
 app();
