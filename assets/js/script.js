@@ -34,6 +34,12 @@ outline.style.strokeDashoffset = outlineLength;
                 play.src = '/assets/svg/play.svg';
             }
         };
+
+    //Animate the circle, to update when the song plays
+    song.ontimeupdate = () => {
+        let currentTime = song.currentTime;
+        let elapsed = fakeDuration - currentTime;
+    }
 };
 
 
