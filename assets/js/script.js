@@ -45,7 +45,9 @@ outline.style.strokeDashoffset = outlineLength;
         //Animate the circle details
         let progress = outlineLength - (currentTime / fakeDuration) * outlineLength;
         outline.style.strokeDashoffset = progress;
-    }
+        //Animate the text of the sound timer
+        timeDisplay.textContent = `${minutes}:${seconds}`;
+    };
 };
 
 
