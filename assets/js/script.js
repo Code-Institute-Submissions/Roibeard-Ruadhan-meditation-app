@@ -17,6 +17,15 @@ const app = () => {
   outline.style.strokeDasharray = outlineLength;
   outline.style.strokeDashoffset = outlineLength;
 
+  //pick different sounds
+  sounds.forEach(sound =>{
+      sound.addEventListener("click", function() {
+          song.src = this.getAttribute("data-sound");
+          video.src = this.getAttribute("data-video");
+          checkPlaying(song);
+      });
+  });
+
   //Play sound
     play.addEventListener("click", () => {
         checkPlaying(song);
@@ -57,6 +66,13 @@ const app = () => {
         outline.style.strokeDashoffset = progress;
         //Animate the text of the sound timer
         timeDisplay.textContent = `${minutes}:${seconds}`;
+
+        //To fix time-display for the sound so that when the song reaches its fakeDuration it pauses & resets
+        if(currentTime >= fakeDuration){
+            song.pause();
+            song.currentTime = 0;
+            play.src = '/assets/svg/play.svg'
+        }
     };
 };
 
