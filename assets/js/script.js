@@ -13,6 +13,7 @@ const app = () => {
   const outlineLength = outline.getTotalLength();
   console.log(outlineLength);
   //Duration function for the user to chose when the song stops
+  const timeSelect = document.querySelectorAll(".time-select button");
   let fakeDuration = 600;
 
   outline.style.strokeDasharray = outlineLength;
