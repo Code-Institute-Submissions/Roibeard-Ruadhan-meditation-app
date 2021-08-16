@@ -23,7 +23,14 @@ const app = () => {
     });
 
   //Select sound
-  timeSelect
+  timeSelect.forEach(option => {
+      option.addEventListener("click", function() {
+          fakeDuration = this.getAttribute("data-time");
+          timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
+              fakeDuration % 60
+          )}`;
+        });
+    });
 
 // Create a function specific to stop and play the sounds
         const checkPlaying = song => {
