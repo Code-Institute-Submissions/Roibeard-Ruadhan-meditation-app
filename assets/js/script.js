@@ -35,12 +35,16 @@ outline.style.strokeDashoffset = outlineLength;
             }
         };
 
-    //Animate the circle, to update when the song plays
+    //Preparations to animate the circle, to update when the song plays
     song.ontimeupdate = () => {
         let currentTime = song.currentTime;
         let elapsed = fakeDuration - currentTime;
         let seconds = Math.floor(elapsed % 60);
         let minutes = Math.floor(elapsed / 60);
+
+        //Animate the circle details
+        let progress = outlineLength - (currentTime / fakeDuration) * outlineLength;
+        outline.style.strokeDashoffset = progress;
     }
 };
 
