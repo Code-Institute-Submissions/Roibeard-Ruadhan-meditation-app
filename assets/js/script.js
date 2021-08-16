@@ -16,8 +16,8 @@ const app = () => {
   const timeSelect = document.querySelectorAll(".time-select button");
   let fakeDuration = 600;
 
-  outline.style.strokeDasharray = outlineLength;
-  outline.style.strokeDashoffset = outlineLength;
+outline.style.strokeDasharray = outlineLength;
+outline.style.strokeDashoffset = outlineLength;
 
 //pick different sounds
 sounds.forEach(sound => {
@@ -25,23 +25,23 @@ sounds.forEach(sound => {
       song.src = this.getAttribute("data-sound");
       video.src = this.getAttribute("data-video");
       checkPlaying(song);
-    });
   });
+});
 
 //Play sound
 play.addEventListener("click", function() {
     checkPlaying(song);
 });
 
-  //Select sound
-  timeSelect.forEach(option => {
-      option.addEventListener("click", function() {
-          fakeDuration = this.getAttribute("data-time");
-          timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
-              fakeDuration % 60
-          )}`;
-        });
+//Select sound
+timeSelect.forEach(option => {
+    option.addEventListener("click", function() {
+        fakeDuration = this.getAttribute("data-time");
+        timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
+            fakeDuration % 60
+        )}`;
     });
+});
 
 // Create a function specific to stop and play the sounds
         const checkPlaying = song => {
