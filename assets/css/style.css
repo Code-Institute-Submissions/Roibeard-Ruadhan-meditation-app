@@ -90,3 +90,37 @@ video {
     width: 100%;
     z-index: -10;
 }
+
+@media (max-width: 420px) {
+    .player-container {
+        
+    }
+
+    .sound-picker button {
+        
+    }
+
+    .time-display {
+        
+    }
+    .time-select {
+        
+    }
+
+}
+@media (max-width: 340px) {
+    .player-container {
+        
+    }
+
+    .sound-picker button {
+        
+    }
+
+    .time-display {
+        
+    }
+    .time-select {
+        
+    }
+}
