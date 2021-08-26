@@ -93,42 +93,42 @@ video {
 
 @media (max-width: 420px) {
     .player-container {
-        
+        height: auto;
     }
 
     .sound-picker button {
-        
+        height: auto;
     }
 
     .time-display {
-        
+        height: auto;
     }
     .time-select {
-        
+        height: auto;
     }
 
     .video {
-
+        height: fit-content;
     }
 
 }
 @media (max-width: 340px) {
     .player-container {
-        
+        height: auto;
     }
 
     .sound-picker button {
-        
+        height: auto;
     }
 
     .time-display {
-        
+        height: auto;
     }
     .time-select {
-        
+        height: auto;
     }
 
     .video {
-        
+        height: fit-content;
     }
 }
