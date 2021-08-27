@@ -2,28 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.app {
+  }
+  
+  .app {
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-family: "Montserrat", sans-serif;
-}
-
-.time-select, 
-.sound-picker {
+  }
+  
+  .time-select,
+  .sound-picker {
     height: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     flex: 1;
-}
-
-.time-select button,
-.sound-picker button {
+  }
+  .time-select button,
+  .sound-picker button {
     color: white;
     width: 30%;
     height: 10%;
@@ -33,32 +32,31 @@
     cursor: pointer;
     border: 2px solid white;
     transition: all 0.5s ease;
-}
-.sound-picker button {
+  }
+  
+  .sound-picker button {
     border: none;
     height: 120px;
     width: 120px;
-    border-radius: 50%;
     padding: 30px;
-}
-
-.sound-picker button:nth-child(1){
-    background: darkslateblue;
-}
-.sound-picker button:nth-child(2){
-    background: crimson;
-}
-
-.sound-picker button img {
+    border-radius: 50%;
+  }
+  .sound-picker button:nth-child(1) {
+    background: #4972a1;
+  }
+  .sound-picker button:nth-child(2) {
+    background: #a14f49;
+  }
+  .sound-picker button img {
     height: 100%;
-}
-/* Hovering over the button causes the button the change colour */
+  }
+ /* Hovering over the button causes the button the change colour */
 .time-select button:hover {
     color: black;
     background: white;
 }
-
-.player-container {
+  
+  .player-container {
     position: relative;
     height: 80%;
     display: flex;
@@ -66,22 +64,26 @@
     align-items: center;
     flex-direction: column;
     flex: 1;
-}
-.player-container svg {
+  }
+  
+  .player-container svg {
     position: absolute;
     height: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-90deg);
     pointer-events: none;
-}
-
-.time-display {
-    position: absolute;
-    bottom: 10%;
+  }
+  .player-container svg circle {
+    transition: all 0.2s ease-in-out;
+  }
+  .time-display {
     color: white;
+    position: absolute;
     font-size: 50px;
-}
+    bottom: 10%;
+  }
+  
 /* Using Z-index to set behind all the other functions on the page, by givng it less than 0(default value)  */
 video {
     position: fixed;
@@ -91,7 +93,7 @@ video {
     z-index: -10;
 }
 
-@media (max-width: 420px) {
+  @media (max-width: 420px) {
     .player-container {
         height: auto;
     }
