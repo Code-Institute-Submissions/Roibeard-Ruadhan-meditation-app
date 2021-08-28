@@ -4,7 +4,6 @@ const song = document.querySelector('.song');
 const play = document.querySelector('.play');
 const replay = document.querySelector(".replay");
 const outline = document.querySelector('.moving-outline circle');
-const video = document.querySelector('.vid-container video');
 
 // Select all the Sounds using querySelectorAll
 const sounds = document.querySelectorAll('.sound-picker button');
@@ -24,7 +23,6 @@ outline.style.strokeDashoffset = outlineLength;
 sounds.forEach(sound => {
     sound.addEventListener("click", function() {
       song.src = this.getAttribute("data-sound");
-      video.src = this.getAttribute("data-video");
       checkPlaying(song);
   });
 });
@@ -57,11 +55,9 @@ timeSelect.forEach(option => {
 const checkPlaying = song => {
     if(song.paused) {
         song.play();
-        video.play();
         play.src = '/assets/svg/pause.svg';
     }else{
         song.pause();
-        video.pause();
         play.src = '/assets/svg/play.svg';
     }
 };

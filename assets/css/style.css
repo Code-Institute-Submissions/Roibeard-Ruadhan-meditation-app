@@ -103,7 +103,7 @@
 }
   
 /* Using Z-index to set behind all the other functions on the page, by givng it less than 0(default value)  */
-video {
+.backdrop-2 {
     position: fixed;
     top: 0%;
     left: 0%;
@@ -112,8 +112,10 @@ video {
     z-index: -10;
 }
 .vid-container {
-    height: 100vh;
-    width: 100px;
+  background-image: url('/assets/images/test.JPG');
+  background-size: cover;
+  max-width: 100vh;
+  position: relative;
 }
 
 .backdrop {
@@ -122,7 +124,7 @@ video {
     background-size: cover;
     background-position: center;
 }
-
+/*
 @media (max-width: 420px) {
   .player-container {
       height: auto;
@@ -163,4 +165,4 @@ video {
     .video {
         height: fit-content;
     }
-}
+}  */
