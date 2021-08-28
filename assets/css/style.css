@@ -38,14 +38,14 @@
     align-items:flex-end;
     flex-direction: column;
     flex: 1;
-  }
+}
 .time-select button,
 .sound-picker button {
     color: white;
     width: 30%;
     height: 10%;
     background: none;
-    font-size: 20px;
+    font-size: 10px;
     border-radius: 5px;
     cursor: pointer;
     border: 2px solid white;
@@ -75,31 +75,31 @@
 }
   
 .player-container {
-  position: relative;
-  height: 80%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  flex: 1;
+    position: relative;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
 }
 
 .player-container svg {
-  position: absolute;
-  height: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-90deg);
-  pointer-events: none;
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    pointer-events: none;
 }
 .player-container svg circle {
-  transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .time-display {
-  color: white;
-  position: absolute;
-  font-size: 50px;
-  bottom: 10%;
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    bottom: 10%;
 }
   
 /* Using Z-index to set behind all the other functions on the page, by givng it less than 0(default value)  */
@@ -112,7 +112,15 @@ video {
     z-index: -10;
 }
 .vid-container {
-  height: 100vh;
+    height: 100vh;
+    width: 100px;
+}
+
+.backdrop {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
 }
 
 @media (max-width: 420px) {
