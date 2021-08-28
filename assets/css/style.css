@@ -22,9 +22,15 @@
     width: 10rem;
 }
     
-  
-  
-.time-select,
+.time-select {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+}
+
 .sound-picker {
     height: 60%;
     display: flex;
@@ -32,7 +38,7 @@
     align-items:flex-end;
     flex-direction: column;
     flex: 1;
-}
+  }
 .time-select button,
 .sound-picker button {
     color: white;
@@ -104,6 +110,9 @@ video {
     height: 100vh;
     width: 100%;
     z-index: -10;
+}
+.vid-container {
+  height: 100vh;
 }
 
 @media (max-width: 420px) {
