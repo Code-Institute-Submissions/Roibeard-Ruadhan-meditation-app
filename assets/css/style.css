@@ -11,6 +11,11 @@
     align-items: center;
     font-family: "Montserrat", sans-serif;
   }
+
+  .play {
+    height: 40rem;
+    width: 2rem;
+  }
   
   .time-select,
   .sound-picker {
@@ -93,25 +98,25 @@ video {
     z-index: -10;
 }
 
-  @media (max-width: 420px) {
-    .player-container {
-        height: auto;
-    }
+@media (max-width: 420px) {
+  .player-container {
+      height: auto;
+  }
 
-    .sound-picker button {
-        height: auto;
-    }
+  .sound-picker button {
+      height: auto;
+  }
 
-    .time-display {
-        height: auto;
-    }
-    .time-select {
-        height: auto;
-    }
+  .time-display {
+      height: auto;
+  }
+  .time-select {
+      height: auto;
+  }
 
-    .video {
-        height: fit-content;
-    }
+  .video {
+      height: fit-content;
+  }
 
 }
 @media (max-width: 340px) {
