@@ -65,8 +65,12 @@
 .sound-picker button:nth-child(2) {
     background: #a14f49;
 }
+.sound-picker button:nth-child(3) {
+    background: #ddd906;
+}
 .sound-picker button img {
     height: 100%;
+    color: white;
 }
  /* Hovering over the button causes the button the change colour */
 .time-select button:hover {
