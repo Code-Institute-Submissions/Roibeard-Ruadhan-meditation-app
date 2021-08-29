@@ -71,6 +71,9 @@
 .sound-picker button:nth-child(4) {
     background: #e907d6;
 }
+.sound-picker button:nth-child(5) {
+    background: #3ef0fd;
+}
 .sound-picker button img {
     height: 100%;
     color: white;
