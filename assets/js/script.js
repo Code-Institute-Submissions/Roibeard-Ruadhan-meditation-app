@@ -80,6 +80,5 @@ song.ontimeupdate = () => {
         song.pause();
         song.currentTime = 0;
         play.src = '/assets/svg/play.svg';
-        video.pause();
     }
 };
