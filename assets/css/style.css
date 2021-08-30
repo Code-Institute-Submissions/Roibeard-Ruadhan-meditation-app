@@ -122,7 +122,7 @@
     z-index: -10;
 }
 
-.backdrop-2 {
+.backdrop {
   background-image: url('/assets/images/rain.JPG');
   background-size: cover;
   max-width: 100vh;

@@ -4,7 +4,7 @@ const song = document.querySelector('.song');
 const play = document.querySelector('.play');
 const replay = document.querySelector(".replay");
 const outline = document.querySelector('.moving-outline circle');
-const image = document.querySelector(".backdrop-2 img");
+const image = document.querySelector(".backdrop img");
 // Select all the Sounds using querySelectorAll
 const sounds = document.querySelectorAll('.sound-picker button');
 // Time display
