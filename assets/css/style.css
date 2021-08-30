@@ -42,10 +42,10 @@
 .time-select button,
 .sound-picker button {
     color: white;
-    width: 50%;
-    height: 10%;
+    width: 60%;
+    height: 20%;
     background: none;
-    font-size: 10px;
+    font-size: 1em;
     border-radius: 5px;
     cursor: pointer;
     border: 2px solid white;
