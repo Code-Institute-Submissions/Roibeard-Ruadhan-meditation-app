@@ -113,20 +113,24 @@
 }
   
 /* Using Z-index to set behind all the other functions on the page, by givng it less than 0(default value)  */
+/*
 #backdrop-2 {
     position: fixed;
     top: 0%;
     left: 0%;
     height: 100vh;
     width: 100%;
-    z-index: -10;
+    z-inde x: -10;
 }
-
+*/
 .backdrop {
-  background-image: url('/assets/images/rain.JPG');
-  background-size: cover;
-  max-width: 100vh;
-  position: relative;
+    background-image: url('/assets/images/rain.JPG');
+    background-size: cover;
+    max-height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
 }
 
 
