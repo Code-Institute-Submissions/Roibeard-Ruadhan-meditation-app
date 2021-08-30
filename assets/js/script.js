@@ -4,7 +4,7 @@ const song = document.querySelector('.song');
 const play = document.querySelector('.play');
 const replay = document.querySelector(".replay");
 const outline = document.querySelector('.moving-outline circle');
-
+const image = document.querySelector(".backdrop-2 img");
 // Select all the Sounds using querySelectorAll
 const sounds = document.querySelectorAll('.sound-picker button');
 // Time display
@@ -23,6 +23,7 @@ outline.style.strokeDashoffset = outlineLength;
 sounds.forEach(sound => {
     sound.addEventListener("click", function() {
       song.src = this.getAttribute("data-sound");
+      image.src = this.getAttribute("data-img");
       checkPlaying(song);
   });
 });
