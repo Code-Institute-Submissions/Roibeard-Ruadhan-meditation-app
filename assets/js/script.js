@@ -63,7 +63,9 @@ const checkPlaying = song => {
     }
 };
 
-//Preparations to animate the circle, to update when the song plays
+/**
+ * Preparations to animate the circle, to update when the song plays
+ */
 song.ontimeupdate = () => {
     let currentTime = song.currentTime;
     let elapsed = fakeDuration - currentTime;
