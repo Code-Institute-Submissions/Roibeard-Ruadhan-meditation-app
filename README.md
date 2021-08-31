@@ -1,6 +1,9 @@
 ### Meditation App
 An app to allow the user to interact with various options to create a personal meditation experience.
 
+### Live Prototype Demo
+[Live link here](https://roibeard-ruadhan.github.io/meditation-app/)
+
 ## UX Design
 Designed so that the video's & sounds interact to create a relaxed atmosphere perfect for entering into a deep meditation
 
