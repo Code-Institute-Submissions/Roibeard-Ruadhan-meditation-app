@@ -17,10 +17,11 @@
     width: 5rem;
     position: fixed;
 }
-img.replay {
+.replay {
+    top: 10rem;
     height: 2rem;
     width: 2rem;
-    position:sticky;
+    position: relative;
 }
 
 .moving-outline, .track-outline {
