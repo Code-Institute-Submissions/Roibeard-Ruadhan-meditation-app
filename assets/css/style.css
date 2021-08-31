@@ -121,7 +121,7 @@
 
 .backdrop {
     background-image: url('/assets/images/rain.JPG');
-    background-size: 100vh;
+    background-size: 10vh;
     object-fit: fill;
     max-height: 10px;
     position: fixed;
@@ -130,11 +130,11 @@
     z-index: -1;
 }
 
-.backdrop img {
-    background-size: 100px;
-    object-fit:cover;
-    max-height: 100vh;    /* Need to fix image positioning to cover page without only showing a part of the image */
-    position:fixed;
+.backdrop .data-img {
+    background-size: 10px;
+    object-fit:fill ;
+    max-height: 10vh;    /* Need to fix image positioning to cover page without only showing a part of the image */
+    position:relative;
     top: 0%;
     left: 0%;
     right: 0%;
