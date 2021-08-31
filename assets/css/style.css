@@ -13,8 +13,14 @@
 }
 
 .play {
-    height: 40rem;
+    height: 5rem;
+    width: 5rem;
+    position: fixed;
+}
+img.replay {
+    height: 2rem;
     width: 2rem;
+    position:sticky;
 }
 
 .moving-outline, .track-outline {
@@ -121,9 +127,10 @@
 
 .backdrop {
     background-image: url('/assets/images/rain.JPG');
-    background-size: 10vh;
+    background-size: 100%;
+    overflow: hidden;
     object-fit: fill;
-    max-height: 10px;
+    max-height: 100vh;
     position: fixed;
     top: 0%;
     left: 0%;
@@ -131,9 +138,10 @@
 }
 
 .backdrop .data-img {
-    background-size: 10px;
+    background-size: 100%;
     object-fit:fill ;
-    max-height: 10vh;    /* Need to fix image positioning to cover page without only showing a part of the image */
+    overflow: hidden;
+    max-height: 100vh;    /* Need to fix image positioning to cover page without only showing a part of the image */
     position:relative;
     top: 0%;
     left: 0%;
