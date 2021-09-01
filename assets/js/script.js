@@ -85,3 +85,4 @@ song.ontimeupdate = () => {
         play.src = 'assets/icons/play.png';
     }
 };
+
