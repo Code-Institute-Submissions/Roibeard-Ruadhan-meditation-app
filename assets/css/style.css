@@ -49,7 +49,7 @@
 .time-select button,
 .sound-picker button {
     color: white;
-    width: 60%;
+    width: 70%;
     height: 20%;
     background: none;
     font-size: 1em;
@@ -195,17 +195,48 @@ visibility: visible;
 
 @media (max-width: 420px) {
   
-  .time-select {
-      max-width: 100%;
-      min-width: 75px;
-  }
+    .time-select {
+        max-width: 100%;
+        min-width: 25vw;
+    }
+    .player-container {
+        max-width: 100%;
+        min-width: 20%;
+    }
+    .time-select button {
+        max-width: 100%;
+        min-width: 20%;
+    }
+    .sound-picker button {
+        max-width: 100%;
+        min-width: 20%;
+    }
+    .sound-picker button img {
+        max-width: 100%;
+        min-width: 20%;
+    }
 
 }
 @media (max-width: 340px) {
 
     .time-select {
         max-width: 100%;
-        min-width: 65px;
+        min-width: 25vw;
     }
-
+    .player-container {
+        max-width: 100%;
+        min-width: 20%;
+    }
+    .time-select button {
+        max-width: 100%;
+        min-width: 20%;
+    }
+    .sound-picker button {
+        max-width: 100%;
+        min-width: 20%;
+    }
+    .sound-picker button img {
+        max-width: 100%;
+        min-width: 20%;
+    }
 }  
