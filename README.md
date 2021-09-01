@@ -12,5 +12,5 @@ Designed so that the images & sounds interact to create a relaxed atmosphere per
 
 *The buttons on the right side of the screen allows the user to choose which sound they wish to listen to while meditating which also changes the image to match the mood.
 
-*The time-select buttons on the left side of the screen allows the user to interact with the page by chosing how long the sound &  play before stopping.
+*The time-select buttons on the left side of the screen allows the user to interact with the page by chosing how long the sound & play before stopping.
 
