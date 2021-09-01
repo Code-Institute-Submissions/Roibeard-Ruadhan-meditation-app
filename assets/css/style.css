@@ -49,7 +49,7 @@
 .time-select button,
 .sound-picker button {
     color: white;
-    width: 70%;
+    width: 60%;
     height: 20%;
     background: none;
     font-size: 1em;
@@ -206,6 +206,7 @@ visibility: visible;
     .time-select button {
         max-width: 100%;
         min-width: 20%;
+        border-width: thin;
     }
     .sound-picker button {
         max-width: 100%;
@@ -225,11 +226,12 @@ visibility: visible;
     }
     .player-container {
         max-width: 100%;
-        min-width: auto;
+        min-width: 20%;
     }
     .time-select button {
         max-width: 100%;
         min-width: 20%;
+        border-width: thin;
     }
     .sound-picker button {
         max-width: 100%;
