@@ -95,7 +95,18 @@
     color: black;
     background: white;
 }
-  
+h1 {
+    font-size: 2em;
+    color: whitesmoke;
+    top: 3rem;
+    visibility:hidden;
+}
+.timing-1 {
+    font-size: 2em;
+    color: whitesmoke;
+    top: 3rem;
+    visibility: visible;
+}
 .player-container {
     position: relative;
     height: 80%;

@@ -82,6 +82,6 @@ song.ontimeupdate = () => {
     if(currentTime >= fakeDuration){
         song.pause();
         song.currentTime = 0;
-        play.src = '/assets/svg/play.svg';
+        play.src = 'assets/icons/play.png';
     }
 };
