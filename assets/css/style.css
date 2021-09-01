@@ -18,10 +18,10 @@
     position: fixed;
 }
 .replay {
-    bottom: 2rem;
+    bottom: 5rem;
     height: 2rem;
     width: 2rem;
-    position: inherit;
+    position: fixed;
 }
 
 .moving-outline, .track-outline {
