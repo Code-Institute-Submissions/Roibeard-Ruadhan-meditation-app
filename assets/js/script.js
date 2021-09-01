@@ -56,10 +56,10 @@ timeSelect.forEach(option => {
 const checkPlaying = song => {
     if(song.paused) {
         song.play();
-        play.src = '/assets/svg/pause.svg';
+        play.src = 'assets/icons/pause.png';
     }else{
         song.pause();
-        play.src = '/assets/svg/play.svg';
+        play.src = 'assets/icons/play.png';
     }
 };
 

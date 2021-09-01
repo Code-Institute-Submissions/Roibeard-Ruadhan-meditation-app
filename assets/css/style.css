@@ -148,7 +148,7 @@
     max-height: 100vh;
     max-width: 100vw; 
     min-width: 100%;
-    min-height: 100%;   /* Need to fix image positioning to cover page without only showing a part of the image */
+    min-height: 100%;   /* Remove code no longer necessary after fixing image size covering screen*/
     position:fixed;
     top: 0%;
     left: 0%;
