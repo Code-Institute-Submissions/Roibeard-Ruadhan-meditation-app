@@ -136,7 +136,6 @@ h1 {
 }
   
 /* Using Z-index to set behind all the other functions on the page, by givng it less than 0(default value)  */
-
 .backdrop {
     background-image: url('/assets/images/lough.JPG') no-repeat center center fixed;
     background-size: 100%;
