@@ -225,7 +225,7 @@ visibility: visible;
     }
     .player-container {
         max-width: 100%;
-        min-width: 20%;
+        min-width: auto;
     }
     .time-select button {
         max-width: 100%;
