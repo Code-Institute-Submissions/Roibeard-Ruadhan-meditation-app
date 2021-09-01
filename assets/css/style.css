@@ -60,8 +60,8 @@
 }
 .sound-picker button {
     border: none;
-    height: 7rem;
-    width: 7rem;
+    height: 6.5rem;
+    width: 6.5rem;
     padding: 1.5rem;
     border-radius: 50%;
 }
@@ -203,7 +203,7 @@ visibility: visible;
         max-width: 100%;
         min-width: 20%;
     }
-    .time-select button {
+    .time-select button  {
         max-width: 100%;
         min-width: 20%;
         border-width: thin;
