@@ -53,6 +53,7 @@ I also sent the deployed webpage to various people who did user testing for me &
 Felipe Souza Alarcon for all his support & information.
 Kasia for her neverending support, positivity & guidance. 
 The Tutor, Mentor, Slackers on Slack & Student care teams.
+Massive thank you to Dev Ed developedbyed for the excellent YouTube tutorial with excellent guidance & explanations of each step of the process.
 
 
 
