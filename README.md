@@ -18,3 +18,35 @@ The sound-picker buttons allow the user to pick which meditation they want to pl
 
 ### Circular Outline-Time Duration Visual
 Once the meditation has been selected the user now has a visual of the time moving around the outline of the circle. Depending on the time duration chosen, when the meditation begins to play, a blue line on the Circular Outline begins to travel around till the completion at 360 degrees/full circle. With this fucntion the user gets a direct insight into how long is remaining in the meditation, based on the location of the blue outline.
+
+## Validator Testing
+[-HTML:No errors were returned when passing through the official](assets/)
+
+![-CSS:No errors were returned when passing through the official](assets/)
+
+![-JS:No errors were returned when passing through the official](assets/)
+
+## Image & Icon Compression
+
+
+### User Stories 
+As a user, I would like the opportunity to see various different types of meditation I didn't even realised existed
+As a user, I would like to learn about different techniques I can use to improve my path to a more still mind
+As a user, I would like the opportunity to try a different meditation per day to see what positives I find in each one respectively
+As a user, I would like to try to start off with a 2 minute meditation & gradually work my way up through longer durations
+As a user, I would like to do a 2 minute meditation as some mornings I am in too much of a rush to do longer
+As a user, I am looking forward to watching as the meditation app builds out into many new forms of meditation from Sahaja Yoga to Body Scans etc
+
+### Testing
+
+## Bugs & other observations
+
+### Deployment
+
+### Ackowledgments
+Felipe Souza Alarcon for all his support & information.
+Kasia for her neverending support, positivity & guidance. 
+The Tutor, Mentor, Slackers on Slack & Student care teams.
+
+
+
