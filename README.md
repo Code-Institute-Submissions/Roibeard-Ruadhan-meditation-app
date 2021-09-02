@@ -40,7 +40,7 @@ As a user, I am looking forward to watching as the meditation app builds out int
 
 ### Testing
 Running smoothly in performance & structure
-![GTMetrix Performance Report](assets/readme-files/images/gtmetrix-speed-test.png) 
+![GTMetrix Performance Report](assets/readme-files/images/gtmetrix-performance) 
 ![GTMetrix Sturcture Report](assets/readme-files/images/gtmetrix-structure.png) 
 ![GTMetrix General Testing](assets/readme-files/images/gtmetrix-testing.png) 
 I also sent the deployed webpage to various people who did user testing for me & I made sure to let them know that critical responses were very welcome & appreciated. I made many changes after receiving excellent & often critical feedback, in the knowledge that I can not see it from the users' viewpoint. Did many tests using dev tools & lighthouse.
