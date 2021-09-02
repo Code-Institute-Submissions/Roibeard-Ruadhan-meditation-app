@@ -77,6 +77,6 @@ Thank you to Mind Control on YouTube for Transcendental Guided Meditation
 Thank you to YoSoyEvolucion on YouTube for the beautiful Mantra :Om Mani Padme Hum
 Thank you to Healing Sounds on YouTube for  10 minutes Deep Relaxing Meditation with Tibetan Singing Bowls
 Thank you to The Honest Guys - Meditations & Relaxation on YouTube for the Mindfulness Guided 10 minute meditation
-Massive thank you to Dev Ed developedbyed for the excellent YouTube tutorial with excellent guidance & explanations of each step of the process.https://www.youtube.com/watch?v=oMBXdZzYqEk&t=856s #Follow 
+Massive thank you to Dev Ed https://github.com/developedbyed for the excellent YouTube tutorial with excellent guidance & explanations of each step of the process.https://www.youtube.com/watch?v=oMBXdZzYqEk&t=856s #Follow 
 
 
