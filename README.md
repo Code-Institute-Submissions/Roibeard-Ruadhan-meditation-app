@@ -5,6 +5,7 @@ An app to allow the user to interact with various options to create a personal m
 [Live link here](https://roibeard-ruadhan.github.io/meditation-app/)
 
 ## UX Design
+![Roibéard Ruadhán Meditation App](assets/images/responsive.png) 
 Designed so that the images & sounds interact to create a relaxed atmosphere perfect for entering into a deep meditation. I added 7 sound-pickers buttons, each one with a different background colour. The 7 buttons are all coloured in the 7 colours that represent the seven chakras using the confirmed Hex colour to boost UX.
 
 ## Functions 
