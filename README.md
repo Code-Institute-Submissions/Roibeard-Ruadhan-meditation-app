@@ -17,3 +17,4 @@ The sound-picker buttons allow the user to pick which sound they want to play to
 *The time-select buttons on the left side of the screen allows the user to interact with the page by choosing how long the sound & play before stopping.
 
 ### Circular Outline-Time Duration Visual
+Once the meditation has been selected the user now has a visual of the time moving around the outline of the circle. Depending on the time duration chosen, when the meditation begins to play, a blue line on the Circular Outline begins to travel around till the completion at 360 degrees/full circle. With this fucntion the user gets a direct insight into how long is remaining in the meditation, based on the location of the blue outline.
