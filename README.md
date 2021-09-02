@@ -25,7 +25,7 @@ Once the meditation has been selected the user now has a visual of the time movi
 
 ![-CSS:No errors were returned when passing through the official](assets/)
 
-![-JS:No errors were returned when passing through the official](assets/)
+![-JS:No errors were returned when passing through the official](assets/readme-files/images/javascript-validation)
 
 ## Image & Icon Compression
 

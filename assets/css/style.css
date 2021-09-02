@@ -137,7 +137,7 @@ h1 {
   
 /* Using Z-index to set behind all the other functions on the page, by givng it less than 0(default value)  */
 .backdrop {
-    background-image: url('/assets/images/lough.JPG') no-repeat center center fixed;
+    background-image: url('/assets/images/lough.JPG');
     background-size: 100%;
     overflow: hidden;
     object-fit: fill;
@@ -151,7 +151,7 @@ h1 {
 }
 
 .backdrop img {
-    background-image: url('/assets/images/lough.JPG') no-repeat center center fixed;
+    background-image: url('/assets/images/lough.JPG');
     background-size: 100%;
     object-fit:fill ;
     overflow: hidden;
@@ -213,9 +213,9 @@ visibility: visible;
         max-width: 100%;
     }
     .tooltip .tooltiptext {
-        width: 100px;
-        top: 25px;
-        right:105% ;
+        width: fit-content;
+        left: auto;
+        top: 1rem;
     }
     .tooltip .tooltiptext::after {
         top: 0%;
@@ -225,6 +225,9 @@ visibility: visible;
         border-width: 5px;
         border-color: transparent transparent black transparent;
     }
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        }
 }
 @media (max-width: 650px) {
     .time-select {
@@ -252,9 +255,9 @@ visibility: visible;
         min-width: 20%;
     }
     .tooltip .tooltiptext {
-        width: 100px;
-        top: 25px;
-        right:105% ;
+        width: fit-content;
+        left: auto;
+        top: 1rem;
     }
     .tooltip .tooltiptext::after {
         top: 0%;
@@ -264,6 +267,9 @@ visibility: visible;
         border-width: 5px;
         border-color: transparent transparent black transparent;
     }
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        }
 }
 
 
@@ -294,9 +300,9 @@ visibility: visible;
         min-width: 20%;
     }
     .tooltip .tooltiptext {
-        width: 100px;
-        top: 25px;
-        right:105% ;
+        width: fit-content;
+        left: auto;
+        top: 1rem;
     }
     .tooltip .tooltiptext::after {
         top: 0%;
@@ -306,6 +312,9 @@ visibility: visible;
         border-width: 5px;
         border-color: transparent transparent black transparent;
     }
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        }
 }
 @media (max-width: 340px) {
 
@@ -346,4 +355,10 @@ visibility: visible;
         border-width: 5px;
         border-color: transparent transparent black transparent;
     }
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        }
+        .tooltip {
+            display:block;
+        }
 }  
