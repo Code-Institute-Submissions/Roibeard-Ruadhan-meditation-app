@@ -16,4 +16,4 @@ The sound-picker buttons allow the user to pick which sound they want to play to
 ### Select Time Duration Button's
 *The time-select buttons on the left side of the screen allows the user to interact with the page by choosing how long the sound & play before stopping.
 
-### Circular Time Duration
+### Circular Outline-Time Duration Visual
