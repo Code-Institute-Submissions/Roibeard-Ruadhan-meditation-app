@@ -46,6 +46,9 @@ I also sent the deployed webpage to various people who did user testing for me &
 ![Dev Tool Lighthouse](assets/readme-files/images/lighthouse.png) 
 
 ## Bugs & other observations
+Used gimp, flaticon & icon8 to produce icons
+Used w3schools as a basis for completing tooltip.
+A lot of testing to fix deployment page to function the same as the gitpod browser. The play button which was previously svg needed to be changed completely along with the pause & replay buttons. The code needed to be changed to match the new items I added. 
 
 ### Deployment
 The site was deployed using GitHub pages. 
@@ -60,7 +63,12 @@ I had several bugs to fix getting the deployment page to function the same as th
 Felipe Souza Alarcon for all his support & information.
 Kasia for her neverending support, positivity & guidance. 
 The Tutor, Mentor, Slackers on Slack & Student care teams.
-Massive thank you to Dev Ed developedbyed for the excellent YouTube tutorial with excellent guidance & explanations of each step of the process.
-
+Thank you to BodyMindPower on YouTube for the music:Native American Flute & Ocean
+Thank you to Meditation Relax on YouTube for the Sitar Meditation Music Relaxation music link to page:
+Thank you to Mind Control on YouTube for Transcendental Guided Meditation
+Thank you to YoSoyEvolucion on YouTube for the beautiful Mantra :Om Mani Padme Hum
+Thank you to Healing Sounds on YouTube for  10 minutes Deep Relaxing Meditation with Tibetan Singing Bowls
+Thank you to The Honest Guys - Meditations & Relaxation on YouTube for the Mindfulness Guided 10 minute meditation
+Massive thank you to Dev Ed developedbyed for the excellent YouTube tutorial with excellent guidance & explanations of each step of the process.https://www.youtube.com/watch?v=oMBXdZzYqEk&t=856s
 
 
