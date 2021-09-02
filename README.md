@@ -39,7 +39,9 @@ As a user, I am looking forward to watching as the meditation app builds out int
 
 ### Testing
 Running smoothly in performance & structure
-![GTMetrix Performance Report](assets/readme-files/gtmetrix-speed-test.png) 
+![GTMetrix Performance Report](assets/readme-files/images/gtmetrix-speed-test.png) 
+![GTMetrix Sturcture Report](assets/readme-files/images/gtmetrix-structure.png) 
+![GTMetrix General Testing](assets/readme-files/images/gtmetrix-testing.png) 
 
 ## Bugs & other observations
 
