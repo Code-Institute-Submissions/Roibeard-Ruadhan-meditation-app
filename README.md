@@ -68,7 +68,7 @@ As soon as the above is complete the deployed page URL will appear above the Sou
 I had several bugs to fix getting the deployment page to function the same as the gitpod browser.
 
 ### Acknowledgments
-Felipe Souza Alarcon for all his support & information.
+Felipe Souza Alarcon for all his support & helpful information.
 Kasia for her neverending support, positivity & guidance. 
 The Tutor, Mentor, Slackers on Slack & Student care teams.
 Thank you to BodyMindPower on YouTube for the music: Native American Flute & Ocean

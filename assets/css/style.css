@@ -334,9 +334,9 @@ visibility: visible;
         min-width: 20%;
     }
     .tooltip .tooltiptext {
-        width: 100px;
-        top: 25px;
-        right:105% ;
+        width: fit-content;
+        left: auto;
+        top: 1rem;
     }
     .tooltip .tooltiptext::after {
         top: 0%;
