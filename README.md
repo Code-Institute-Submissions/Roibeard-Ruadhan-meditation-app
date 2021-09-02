@@ -42,6 +42,8 @@ Running smoothly in performance & structure
 ![GTMetrix Performance Report](assets/readme-files/images/gtmetrix-speed-test.png) 
 ![GTMetrix Sturcture Report](assets/readme-files/images/gtmetrix-structure.png) 
 ![GTMetrix General Testing](assets/readme-files/images/gtmetrix-testing.png) 
+I also sent the deployed webpage to various people who did user testing for me & I made sure to let them know that critical responses were very welcome & appreciated. I made many changes after receiving excellent & often critical feedback, in the knowledge that I can not see it from the users' viewpoint. Did many tests using dev tools & lighthouse.
+![Dev Tool Lighthouse](assets/readme-files/images/lighthouse.png) 
 
 ## Bugs & other observations
 
