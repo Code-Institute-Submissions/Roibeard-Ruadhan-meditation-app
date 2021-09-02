@@ -48,6 +48,13 @@ I also sent the deployed webpage to various people who did user testing for me &
 ## Bugs & other observations
 
 ### Deployment
+The site was deployed using GitHub pages. 
+
+Clicked into the Github repository, navigate to the settings tab.
+Scroll down to Github pages & click into pages ling which takes you to the deployment page.
+Click on the tab under Source, select Master branch & click save. 
+As soon as the above is complete the deployed page url will appear on above Source & it will turn green when it is ready.
+I had several bugs to fix getting the deployment page to function the same as the gitpod browser.
 
 ### Ackowledgments
 Felipe Souza Alarcon for all his support & information.
