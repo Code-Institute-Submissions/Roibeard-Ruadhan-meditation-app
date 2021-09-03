@@ -21,11 +21,11 @@ The time-select buttons on the left side of the screen allow the user to interac
 Once the meditation has been selected the user now has a visual of the time moving around the outline of the circle. Depending on the time duration chosen, when the meditation begins to play, a blue line on the Circular Outline begins to travel around till the completion at 360 degrees/full circle. With this function the user gets a direct insight into how long is remaining in the meditation, based on the location of the blue outline.
 
 ## Validator Testing
-[![HTML:No errors were returned when passing through the official](assets/readme-files/images/html-validator)]
+![HTML:No errors were returned when passing through the official](assets/readme-files/images/html-validator)
 
-[![CSS:No errors were returned when passing through the official](assets/readme-files/images/css-validator)]
+![CSS:No errors were returned when passing through the official](assets/readme-files/images/css-validator)
 
-[![JS:No errors were returned when passing through the official](assets/readme-files/images/javascript-validation)]
+![JS:No errors were returned when passing through the official](assets/readme-files/images/javascript-validation)
 
 
 ### User Stories 
@@ -38,7 +38,7 @@ As a user, I am looking forward to watching as the meditation app builds out int
 
 ### Testing
 Running smoothly in performance & structure
-![GTMetrix Performance Report](assets/readme-files/images/gtmetrix-performance) 
+![GTMetrix Performance Report](assets/readme-files/images/gtmetrix-performance.png) 
 ![GTMetrix Sturcture Report](assets/readme-files/images/gtmetrix-structure.png) 
 ![GTMetrix General Testing](assets/readme-files/images/gtmetrix-testing.png) 
 I also sent the deployed webpage to various people who did user testing for me & I made sure to let them know that critical responses were very welcome & appreciated. I made many changes after receiving excellent & often critical feedback, in the knowledge that I can not see it from the users' viewpoint. Did many tests using dev tools & lighthouse.
@@ -77,4 +77,4 @@ Thank you to Healing Sounds on YouTube for  10 minutes Deep Relaxing Meditation 
 Thank you to The Honest Guys - Meditations & Relaxation on YouTube for the Mindfulness Guided 10 minute meditation
 Massive thank you to Dev Ed https://github.com/developedbyed for the excellent YouTube tutorial with excellent guidance & explanations of each step of the process.https://www.youtube.com/watch?v=oMBXdZzYqEk&t=856s #Follow 
 
-
+For educational purposes only
