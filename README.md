@@ -21,11 +21,11 @@ The time-select buttons on the left side of the screen allow the user to interac
 Once the meditation has been selected the user now has a visual of the time moving around the outline of the circle. Depending on the time duration chosen, when the meditation begins to play, a blue line on the Circular Outline begins to travel around till the completion at 360 degrees/full circle. With this function the user gets a direct insight into how long is remaining in the meditation, based on the location of the blue outline.
 
 ## Validator Testing
-![HTML:No errors were returned when passing through the official](assets/readme-files/images/html-validator.png)
+![HTML:No errors](assets/readme-files/images/html-validator.png)
 
-![CSS:No errors were returned when passing through the official](assets/readme-files/images/css-validator.png)
+![CSS:No errors](assets/readme-files/images/css-validator.png)
 
-![JS:No errors were returned when passing through the official](assets/readme-files/images/javascript-validation.png)
+![JS:No errors](assets/readme-files/images/javascript-validation.png)
 
 
 ### User Stories 
