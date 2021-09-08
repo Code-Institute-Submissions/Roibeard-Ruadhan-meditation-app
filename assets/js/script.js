@@ -85,7 +85,3 @@ song.ontimeupdate = () => {
         play.src = 'assets/icons/play.png';
     }
 };
-
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
