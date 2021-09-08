@@ -38,7 +38,7 @@
     flex-direction: column;
     flex: 1;
 }
-
+/* Button for picking the sound is spaced evenly & held to the right side of the screen using felx-end for responsiveness */
 .sound-picker {
     height: 60%;
     display: flex;
@@ -47,6 +47,7 @@
     flex-direction: column;
     flex: 1;
 }
+/* Many similarities between both botton options on either side */
 .time-select button,
 .sound-picker button {
     color: white;
@@ -66,6 +67,7 @@
     padding: 1.5rem;
     border-radius: 50%;
 }
+/* Added the 7 Chakra colours to verify each of the sound-picker buttons */
 .sound-picker button:nth-child(1) {
     background: #9400d3;
 }
@@ -108,6 +110,7 @@ h1 {
     top: 3rem;
     visibility: visible;
 }
+/* The Player container in the center of the page given height & positioning to allow space for side buttons on smaller screens. Centered */
 .player-container {
     position: relative;
     height: 80%;
@@ -129,6 +132,7 @@ h1 {
 .player-container svg circle {
     transition: all 0.2s ease-in-out;
 }
+/* Time-display set to absolute to reduce movement when screen sizes change. Also to allow space for replay button */ 
 .time-display {
     color: white;
     position: absolute;
@@ -150,7 +154,7 @@ h1 {
     right: 0%;
     z-index: -1;
 }
-
+/* The image when the page is loaded set with min & max-height to allow image to fill the page on all screen sizes */
 .backdrop img {
     background-image: url('/assets/images/lough.JPG');
     background-size: 100%;
@@ -165,33 +169,8 @@ h1 {
     left: 0%;
     right: 0%;
 }
-/*
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-} */
-/*  
-.tooltip .tooltiptext {
-visibility: hidden;
-width: 120px;
-background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);
-text-align: center;
-border-radius: 6px;
-padding: 5px 0;
 
-/* Position the tooltip
-position: absolute;
-z-index: 1;
-top: 25px;
-right: 105%;
-}
-
-.tooltip:hover .tooltiptext {
-visibility: visible;
-*/
-}
+/* Media query for the following screen sizes to cater for the problems tested on each screen size */
 @media (max-width: 1040px) {
     .time-select {
         max-width: 100%;
