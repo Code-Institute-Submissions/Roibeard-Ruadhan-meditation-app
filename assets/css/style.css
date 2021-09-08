@@ -155,7 +155,6 @@ h1 {
 }
 /* The image when the page is loaded set with min & max-height to allow image to fill the page on all screen sizes */
 .backdrop img {
-    background-image: url('/assets/images/night.JPG');
     background-size: 100%;
     object-fit:fill ;
     overflow: hidden;
