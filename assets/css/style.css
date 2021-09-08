@@ -11,24 +11,25 @@
     align-items: center;
     font-family: "Montserrat", sans-serif;
 }
-
+/* Play button positioned in the center of circular outline & sized in rem for extra responsiveness */
 .play {
     height: 5rem;
     width: 5rem;
     position: fixed;
 }
+/* Replay button positioned in the center of circular outline & sized in rem for extra responsiveness */
 .replay {
     bottom: 4rem;
     height: 2rem;
     width: 2rem;
     position: fixed;
 }
-
+/* Moving outline targeted to maintain height & size in rem to keep responsive & make space for buttons to the left & right on smaller screens */
 .moving-outline, .track-outline {
     height: 10rem;
     width: 10rem;
 }
-    
+/* Targeting the buttons dedicated to give the user options of how long the sound plays for. Flex-start to keep on far left. Spaced out evenly. */
 .time-select {
     height: 50%;
     display: flex;
@@ -164,13 +165,13 @@ h1 {
     left: 0%;
     right: 0%;
 }
-
+/*
 .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-}
-  
+} */
+/*  
 .tooltip .tooltiptext {
 visibility: hidden;
 width: 120px;
@@ -180,7 +181,7 @@ text-align: center;
 border-radius: 6px;
 padding: 5px 0;
 
-/* Position the tooltip */
+/* Position the tooltip
 position: absolute;
 z-index: 1;
 top: 25px;
@@ -189,6 +190,7 @@ right: 105%;
 
 .tooltip:hover .tooltiptext {
 visibility: visible;
+*/
 }
 @media (max-width: 1040px) {
     .time-select {
